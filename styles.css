@@ -234,7 +234,8 @@ nav{
     width: 100%;
     height:auto;
     padding: 4rem 5rem;
-    background: linear-gradient(to right, rgb(5, 103, 107), rgba(5, 104, 107, 0.632),rgba(5, 104, 107, 0.332) ,#ffffff00);
+    background-image: url(background.jpg), linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
+    background-size: cover;
 }
 
 .aboutusheader{
