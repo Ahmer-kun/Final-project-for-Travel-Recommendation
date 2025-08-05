@@ -1,6 +1,26 @@
+SYLES.css
+
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+body {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+    color: blue;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/background.jpg"), linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
+    background-size: cover;
+    /* background-position: top; */
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
 
 
 *{
@@ -400,64 +420,5 @@ form .inputval{
     color: #fff;
 }
 
-            
-			
-            		h2 {
-                    		font-size: 5rem;
-                            font-family: "Poppins", sans-serif;
-                            font-weight: 700;
-                            font-style: normal;
-                            color: #0c0c0c;
-                            font-weight: bolder;
-                            line-height: 5rem;
-            		}
-           		    .team-section {
-                   		text-align: center;
-                    		padding: 50px;
-            		}
-            		.team-section h2 {
-                    		font-size: 36px;
-                    		margin-bottom: 20px;
-            		}
-            		.team-container {
-                    		display: flex;
-                    		justify-content: center;
-                    		gap: 30px;
-                    		flex-wrap: wrap;
-            		}
-            		.team-member {
-                    		background-color: #fff;
-                    		border-radius: 10px;
-                    		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                    		text-align: center;
-                    		padding: 20px;
-                    		width: 200px;
-                    		transition: transform 0.3s ease-in-out;
-            		}
-            		.team-member img {
-                    		width: 10%;
-                    		height: 20px;
-                    		border-radius: 50%;
-                    		object-fit: cover;
-                    		margin-bottom: 15px;
-            		}
 
-            		.team-member h3 {
-                    		font-size: 20px;
-                    		margin-bottom: 5px;
-            		}
 
-            		.team-member p {
-                    		color: #888;
-		            }
-
-            		.team-member:hover {
-                    		transform: translateY(-10px);
-		            }
-                    p{
-                        color: #080808;
-                        margin-top: 2rem;
-                        font-size: 1.2rem;
-                    }
-                        
-                
