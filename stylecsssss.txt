@@ -422,3 +422,10 @@ form .inputval{
 
 
 
+use this to fix the pictuer issue 
+
+background-image: url(background.jpg), linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
+    background-size: cover;
+
+
+
