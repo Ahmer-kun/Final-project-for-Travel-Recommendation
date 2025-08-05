@@ -9,9 +9,7 @@
     box-sizing: border-box;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
-
-
-        height: 100vh;
+    height: 100vh;
     background-color: grey;
     color: blue;
     font-size: medium;
