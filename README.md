@@ -1,4 +1,4 @@
-# Travel Bloom
+# Travel Buddy
 
 ## Introduction
 
@@ -36,6 +36,7 @@ Tasks done are recorded [here](./TASKS.md).
 ## Features Not Done
 Would be helpful to implement this features.
 Content for each item recommended below each feature.
+About page fix, correct Css
 
 - Media Queries for responsiveness
     - [CSS-tricks Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
@@ -45,15 +46,10 @@ Content for each item recommended below each feature.
 - Social Media Intergration Links
 - Animation for the Search Recommendations
 
-## Contributors
-
-Ben Karanja - [bernie_haxx](https://github.com/bernie-haxx)
-
 ## Feedback
 
-If you have any feedback, suggestions, or issues with the application, please feel free to [open an issue](https://github.com/bernie-haxx/Travel-Bloom/issues). We welcome contributions and collaboration to make Travel Bloom even better!
+If you have any feedback, suggestions, or issues with the application, please feel free ro comment.
 
 
-https://ahmer-kun.github.io/Final-project-for-Travel-Recommendation/
-
+Live Link: <a href=https://ahmer-kun.github.io/Final-project-for-Travel-Recommendation/>CLICK HERE</a>
 use this link to open the website
