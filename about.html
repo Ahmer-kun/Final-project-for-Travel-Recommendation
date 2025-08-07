@@ -25,6 +25,51 @@
                             margin-top: 9rem;
                             margin-left: 3rem;
             		}
+
+
+
+
+
+                    .aboutcontent {
+                        height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+    color: blue;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg), linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
+    background-size: cover;
+    /* background-position: top; */
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+
+                    }
+
+                    .about-section {
+                   		text-align: center;
+                    		padding: 50px;
+            		}
+            		.about-section h2 {
+                    		font-size: 36px;
+                    		margin-bottom: 20px;
+            		}
+            		.about-container p{
+                    		display: flex;
+                    		justify-content: center;
+                    		gap: 30px;
+                    		flex-wrap: wrap;
+            		}
+
+
+
+
+
+
+
+
            		    .team-section {
                    		text-align: center;
                     		padding: 50px;
@@ -87,19 +132,7 @@
     align-items: flex-start;
 }
 */
-	MainSection{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    align-items: center;
-    background: linear-gradient(120deg, rgb(30, 62, 60),rgb(30, 62, 60) ,rgb(100, 90, 90)); 
-    background-image: url("background.jpg");
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
+	
 
 .sociallinks {
     position: fixed;
@@ -162,16 +195,20 @@
                             <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter fa-2x linkslogo" aria-hidden="true"></i></a>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x linkslogo" aria-hidden="true"></i></a>
                             <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x linkslogo" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-youtube-play fa-2x linkslogo" aria-hidden="true"></i></a
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-youtube-play fa-2x linkslogo" aria-hidden="true"></i></a>
 
 		 </div>
-		</div>
-			</div>
+
+		    <div class="aboutcontent">
+			<section id="about-section">
 			<h2>About Us</h2>
+            <div class="about-container">
 			<p>TravelBuddy is an innovative travel platform that helps you discover exciting destinations around the world.<br></br>
                  Whether you're seeking serene beaches, bustling cities, or hidden gems off the beaten path, our website offers detailed guides and recommendations to inspire your next adventure.<br></br>
                  Travel Buddy makes it easy to plan your dream trip and explore new places at your own pace.<br></br>
             </p>
+            </div>
+            </section>
             <section id="team-section">
                 <h2>Our Team</h2>
                 <div class="team-container">
@@ -191,7 +228,11 @@
                         <p>Lead Designer</p>
                     </div>
                 </div>
-            </section>		
+            </section>	
+            </div>
+</div>
+</div>
+            	
 		</body>
 </html>
 			    
