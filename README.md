@@ -4,7 +4,6 @@
 
 This is a travel Recommendation Website created for the IBM Skills Network Course: JavaScript Essentials Final Project.
 
-![home-page](./images/home_page.png)
 
 ## Technologies Used
 - HTML
@@ -24,8 +23,6 @@ This is a travel Recommendation Website created for the IBM Skills Network Cours
 2. Open your `index.html` to your web browser of your choosing
 3. Explore the site
 
-## Tasks Done
-Tasks done are recorded [here](./TASKS.md).
 
 ## Resources Used
 
